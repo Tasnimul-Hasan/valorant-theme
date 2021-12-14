@@ -4,6 +4,7 @@
   "description": "This a theme based on the FPS game called valorant!",
   "version": "2.0.0",
   "publisher": "TasnimulHasan",
+  "icon": "icon.jpg",
   "repository": {
     "type": "git",
     "url": "https://github.com/TasnimulHasan007/valorant-theme"
