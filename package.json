@@ -1,0 +1,37 @@
+{
+  "name": "valorant-theme",
+  "displayName": "Valorant Theme",
+  "description": "This a theme based on the FPS game called valorant!",
+  "version": "0.5.0",
+  "publisher": "TasnimulHasan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TasnimulHasan007/valorant-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "valorant-theme",
+    "valorant theme",
+    "valorant",
+    "tasnimul",
+    "tasnimul hasan",
+    "tasnimulhasan",
+    "tasnimul-hasan"
+  ],
+  "engines": {
+    "vscode": "^1.59.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Valorant Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/valorant-theme.json"
+      }
+    ]
+  }
+}
