@@ -1,3 +1,3 @@
-# 0.5.1
+# Valorant Theme v1
 
-- background colors of panel, sidebar and activity bar has been changed
+The background colors of activity bar, sidebar and panel are now all shades of blue
