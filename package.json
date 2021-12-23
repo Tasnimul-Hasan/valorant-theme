@@ -12,6 +12,7 @@
   "keywords": [
     "theme",
     "dark theme",
+    "valoranttheme",
     "valorant-theme",
     "valorant theme",
     "valorant",
@@ -32,6 +33,11 @@
         "label": "Valorant Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/valorant-theme.json"
+      },
+      {
+        "label": "Valorant Theme - Oceanic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/valorant-theme-oceanic.json"
       }
     ]
   }

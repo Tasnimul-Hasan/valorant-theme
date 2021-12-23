@@ -2,10 +2,12 @@
 
 Here is the VS Code theme that I use. I like dark themes so it's dark :)
 
-I took inspiration from the FPS game [Valorant](https://playvalorant.com/) and the [Dark+ Material](https://marketplace.visualstudio.com/items?itemName=vangware.dark-plus-material) themes.
+I took inspiration from the FPS game [Valorant](https://playvalorant.com/) and the [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme).
 
-Will be maintaining this as I have time, thanks for your understanding! 🙏🏽
+## Normal
 
-## Screenshots
+![normal](./screenshots/normal.png)
 
-![screenshot](./screenshots/screenshot.png)
+## Oceanic
+
+![oceanic](./screenshots/oceanic.png)
