@@ -6,3 +6,9 @@
 # Valorant Theme v2.1
 
 - New oceanic variant available
+
+## Valorant Theme v2.1.1
+
+- Oceanic variant colors darkened a bit
+- HTML attribute names are now orrage in oceanic variant
+- Italic font style added
