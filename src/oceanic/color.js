@@ -1,0 +1,16 @@
+module.exports = {
+  lighter: "#C9D6Da",
+  light: "#abb2bf",
+  orange: "#e89e30",
+  orangeDark: "#BE5046",
+  orangeLight: "#e5b965",
+  purple: "#a39cf9",
+  redShade: "#e57373",
+  red: "#f44747",
+  violetLight: "#C792CD",
+  blueishDark: "#5c6370",
+  skyishDark: "#5c6370",
+  sky: "#73bae5",
+  greenLight: "#82C781",
+  cyan: "#3CA29C",
+}
