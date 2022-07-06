@@ -1,4 +1,3 @@
-console.clear()
 module.exports = {
   name: "valorant-theme",
   displayName: "Valorant Theme",

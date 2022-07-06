@@ -10,6 +10,7 @@ if (fs.existsSync("themes")) {
 }
 fs.mkdirSync("themes")
 
+// Loop over giver package themes and create theme.json
 themes.forEach((config) => {
   const theme = require(`./${config.path}`)
   config.path = `themes/${config.path}.json`
@@ -17,9 +18,11 @@ themes.forEach((config) => {
   fs.writeFileSync(config.path, JSON.stringify(theme))
 })
 
-const packageJSON = fs.readFileSync("package.json", "utf-8")
+
+// Play with package.json
+fs.renameSync("package.json", "package-temp.json")
 
 fs.writeFileSync("package.json", JSON.stringify(package))
 SHELL.exec("npx vsce package")
 
-fs.writeFileSync("package.json", packageJSON)
+fs.renameSync("package-temp.json", "package.json")

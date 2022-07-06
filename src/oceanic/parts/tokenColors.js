@@ -577,7 +577,7 @@ module.exports = [
   },
   {
     name: "meta.brace.square",
-    scope: [" meta.brace.square"],
+    scope: ["meta.brace.square"],
     settings: {
       foreground: color.light,
     },

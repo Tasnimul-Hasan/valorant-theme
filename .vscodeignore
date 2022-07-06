@@ -5,5 +5,7 @@
 .vscodeignore
 node_modules
 package.js
+package-temp.json
+package-lock.json
 *.vsix
 src
