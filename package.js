@@ -1,6 +1,6 @@
 module.exports = {
   name: 'valorant-theme',
-  version: '4.1.0',
+  version: '4.1.1',
   displayName: 'Valorant Theme',
   description: 'This theme is based on the FPS game called valorant!',
   publisher: 'TasnimulHasan',
