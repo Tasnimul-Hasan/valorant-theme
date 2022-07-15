@@ -529,7 +529,6 @@ module.exports = [
       'entity.name.function',
       'meta.require',
       'support.function.any-method',
-      'variable.function',
     ],
     settings: {
       foreground: color.blue,
