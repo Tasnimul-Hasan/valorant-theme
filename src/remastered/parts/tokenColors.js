@@ -46,14 +46,14 @@ module.exports = [
     ],
     settings: {
       fontStyle: 'italic',
-      foreground: color.gray,
+      foreground: color.darkGray,
     },
   },
   {
     name: 'Comment Markup Link',
     scope: 'comment markup.link',
     settings: {
-      foreground: color.gray,
+      foreground: color.darkGray,
     },
   },
   {

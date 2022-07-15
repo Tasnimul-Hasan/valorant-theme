@@ -1,8 +1,8 @@
 {
   "name": "valorant-theme",
-  "displayName": "Valorant Theme",
   "version": "4.1.3",
-  "description": "This theme is based on the FPS game called valorant!",
+  "displayName": "Valorant Theme",
+  "description": "This theme is based on the FPS game called valorant",
   "publisher": "TasnimulHasan",
   "icon": "icon.jpg",
   "repository": {
@@ -26,19 +26,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Valorant Theme - Old",
-        "uiTheme": "vs-dark",
-        "path": "./themes/valorant.json"
-      },
-      {
-        "label": "Valorant Theme - Oceanic",
-        "uiTheme": "vs-dark",
-        "path": "./themes/oceanic.json"
-      },
-      {
         "label": "Valorant Theme - Remastered",
         "uiTheme": "vs-dark",
-        "path": "./themes/remastered.json"
+        "path": "themes/remastered.json"
       }
     ]
   },

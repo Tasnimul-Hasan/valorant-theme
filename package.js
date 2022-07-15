@@ -1,8 +1,8 @@
 module.exports = {
   name: 'valorant-theme',
-  version: '4.1.3vsce ',
+  version: '4.1.3',
   displayName: 'Valorant Theme',
-  description: 'This theme is based on the FPS game called valorant!',
+  description: 'This theme is based on the FPS game called valorant',
   publisher: 'TasnimulHasan',
   icon: 'icon.jpg',
   repository: {
@@ -23,7 +23,7 @@ module.exports = {
   categories: ['Themes'],
   contributes: {
     themes: [
-      {
+      /* {
         label: 'Valorant Theme - Old',
         uiTheme: 'vs-dark',
         path: 'valorant',
@@ -32,7 +32,7 @@ module.exports = {
         label: 'Valorant Theme - Oceanic',
         uiTheme: 'vs-dark',
         path: 'oceanic',
-      },
+      }, */
       {
         label: 'Valorant Theme - Remastered',
         uiTheme: 'vs-dark',
