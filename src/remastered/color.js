@@ -5,7 +5,7 @@ module.exports = {
   light: '#abb2bf',
   orange: '#e89e30',
   darkOrange: '#BE5046',
-  yellow: '#e5b965',
+  lime: '#e5d865',
   purple: '#a39cf9',
   redShade: '#e57373',
   red: '#f44747',

@@ -23,7 +23,7 @@ module.exports = [
   {
     scope: 'storage.type.haskell',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -42,13 +42,13 @@ module.exports = [
   {
     scope: 'variable.parameter.function.language.special.self.python',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
     scope: 'variable.parameter.function.language.special.cls.python',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -66,7 +66,7 @@ module.exports = [
   {
     scope: 'entity.name.lifetime.rust',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -96,7 +96,7 @@ module.exports = [
   {
     scope: 'keyword.operator.quantifier.regexp',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -114,7 +114,7 @@ module.exports = [
   {
     scope: 'markup.changed.diff',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -164,19 +164,19 @@ module.exports = [
   {
     scope: 'support.constant.math',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
     scope: 'support.constant.property.math',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
     scope: 'variable.other.constant',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -185,7 +185,7 @@ module.exports = [
       'storage.type.object.array.java',
     ],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -211,7 +211,7 @@ module.exports = [
     scope:
       'storage.modifier.import.java,storage.type.java,storage.type.generic.java',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -248,7 +248,7 @@ module.exports = [
     scope:
       'support.constant.property-value.scss,support.constant.property-value.css',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -262,7 +262,7 @@ module.exports = [
     scope:
       'support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -274,7 +274,7 @@ module.exports = [
   {
     scope: 'support.constant.color.w3c-standard-color-name.css',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -287,13 +287,13 @@ module.exports = [
     scope:
       'support.module.node,support.type.object.module,support.module.node',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
     scope: 'entity.name.type.module',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -306,7 +306,7 @@ module.exports = [
   {
     scope: 'support.constant.json',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -330,7 +330,7 @@ module.exports = [
   {
     scope: 'support.variable.property.process',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -411,7 +411,7 @@ module.exports = [
   {
     scope: 'variable.parameter.function.language.python',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -429,7 +429,7 @@ module.exports = [
   {
     scope: 'variable.parameter.function.python',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -448,7 +448,7 @@ module.exports = [
   {
     scope: 'constant.character.format.placeholder.other.python',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -479,7 +479,7 @@ module.exports = [
   {
     scope: 'entity.name.namespace',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -497,7 +497,7 @@ module.exports = [
   {
     scope: 'variable.language',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -509,7 +509,7 @@ module.exports = [
   {
     scope: 'import.storage.java',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -538,19 +538,19 @@ module.exports = [
   {
     scope: 'entity.name.type.namespace',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
     scope: 'support.class,entity.name.type.class',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
     scope: 'entity.name.class.identifier.namespace.type',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -560,7 +560,7 @@ module.exports = [
       'variable.other.class.ts',
     ],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -572,7 +572,7 @@ module.exports = [
   {
     scope: 'entity.name.type',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -584,7 +584,7 @@ module.exports = [
   {
     scope: 'control.elements,keyword.operator.less',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -615,7 +615,7 @@ module.exports = [
   {
     scope: 'token.storage.type.java',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -639,7 +639,7 @@ module.exports = [
   {
     scope: 'support.constant.font-name',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -663,19 +663,19 @@ module.exports = [
   {
     scope: 'constant.numeric',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
     scope: 'constant',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
     scope: 'punctuation.definition.constant',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -687,7 +687,7 @@ module.exports = [
   {
     scope: 'entity.other.attribute-name',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -718,13 +718,13 @@ module.exports = [
   {
     scope: 'markup.bold,todo.bold',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
     scope: 'punctuation.definition.bold',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -755,7 +755,7 @@ module.exports = [
   {
     scope: 'punctuation.definition.list.begin.markdown',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -767,7 +767,7 @@ module.exports = [
   {
     scope: 'punctuation.definition.bold.markdown',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -785,13 +785,13 @@ module.exports = [
   {
     scope: 'punctuation.definition.raw.markdown',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
     scope: 'punctuation.definition.list.markdown',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -839,13 +839,13 @@ module.exports = [
   {
     scope: 'punctuation.definition.asciidoc',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
     scope: 'markup.list.asciidoc',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -912,7 +912,7 @@ module.exports = [
   {
     scope: 'invalid.deprecated.entity.other.attribute-name.html',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -979,7 +979,7 @@ module.exports = [
     scope:
       'support.other.namespace.use.php,support.other.namespace.use-as.php,entity.other.alias.php,meta.interface.php',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1016,7 +1016,7 @@ module.exports = [
     scope:
       'storage.type.php,meta.other.type.phpdoc.php,keyword.other.type.php,keyword.other.array.phpdoc.php',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1036,14 +1036,14 @@ module.exports = [
   {
     scope: 'support.constant.core.rust',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
     scope:
       'support.constant.ext.php,support.constant.std.php,support.constant.core.php,support.constant.parser-token.php',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -1123,13 +1123,13 @@ module.exports = [
   {
     scope: 'inline-color-decoration rgb-value',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
     scope: 'less rgb-value',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -1142,7 +1142,7 @@ module.exports = [
     scope:
       'support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1154,7 +1154,7 @@ module.exports = [
   {
     scope: 'storage.type.cs',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1172,7 +1172,7 @@ module.exports = [
   {
     scope: 'token.warn-token',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -1218,7 +1218,7 @@ module.exports = [
   {
     scope: ['support.type.primitive'],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1266,7 +1266,7 @@ module.exports = [
   {
     scope: ['keyword.operator.assignment.go'],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1281,7 +1281,7 @@ module.exports = [
   {
     scope: ['entity.name.package.go'],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1293,7 +1293,7 @@ module.exports = [
   {
     scope: ['support.constant.elm'],
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -1320,7 +1320,7 @@ module.exports = [
   {
     scope: ['entity.global.clojure'],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1359,13 +1359,13 @@ module.exports = [
   {
     scope: ['source.makefile'],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
     scope: ['storage.modifier.import.groovy'],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1389,7 +1389,7 @@ module.exports = [
   {
     scope: ['support.variable.semantic.hlsl'],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1414,13 +1414,13 @@ module.exports = [
   {
     scope: ['support.type.swift', 'support.type.vb.asp'],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
     scope: ['entity.name.function.xi'],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1480,7 +1480,7 @@ module.exports = [
   {
     scope: ['wikiword.xi'],
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -1492,7 +1492,7 @@ module.exports = [
   {
     scope: ['punctuation.definition.tag.xi'],
     settings: {
-      foreground: color.cyanishDark,
+      foreground: color.redShade,
     },
   },
   {
@@ -1502,7 +1502,7 @@ module.exports = [
       'entity.name.scope-resolution.function.definition',
     ],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1530,7 +1530,7 @@ module.exports = [
   {
     scope: 'punctuation.definition.block.sequence.item.yaml',
     settings: {
-      foreground: color.light,
+      foreground: color.redShade,
     },
   },
   {
@@ -1545,7 +1545,7 @@ module.exports = [
   {
     scope: ['entity.name.variable.parameter.cs'],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1578,7 +1578,7 @@ module.exports = [
       'punctuation.section.embedded.end.php',
     ],
     settings: {
-      foreground: color.cyanishDarkredShade,
+      foreground: color.redShade,
     },
   },
   {
@@ -1590,7 +1590,7 @@ module.exports = [
   {
     scope: ['variable.other.object'],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1602,7 +1602,7 @@ module.exports = [
   {
     scope: ['entity.other.inherited-class'],
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -1615,7 +1615,7 @@ module.exports = [
     scope:
       'entity.name.variable.parameter.php,punctuation.separator.colon.php,constant.other.php',
     settings: {
-      foreground: color.light,
+      foreground: color.redShade,
     },
   },
   {
@@ -1627,7 +1627,7 @@ module.exports = [
   {
     scope: ['support.other.parenthesis.regexp'],
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {
@@ -1645,7 +1645,7 @@ module.exports = [
   {
     scope: 'variable.language.this',
     settings: {
-      foreground: color.orange,
+      foreground: color.lime,
     },
   },
   {

@@ -40,4 +40,13 @@ module.exports = {
       },
     ],
   },
+  scripts: {
+    build: 'node src',
+  },
+  devDependencies: {
+    vsce: 'latest',
+  },
+  dependencies: {
+    shelljs: 'latest',
+  },
 };

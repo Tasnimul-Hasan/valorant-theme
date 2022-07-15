@@ -41,5 +41,14 @@
         "path": "./themes/remastered.json"
       }
     ]
+  },
+  "scripts": {
+    "build": "node src"
+  },
+  "devDependencies": {
+    "vsce": "latest"
+  },
+  "dependencies": {
+    "shelljs": "latest"
   }
 }
