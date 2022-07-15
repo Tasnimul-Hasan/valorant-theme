@@ -1,8 +1,8 @@
 # Valorant Theme by Tasnimul Hasan
 
-Here is the VS Code theme that I use. I like dark themes so it's dark :)
-
 I took inspiration from the FPS game [Valorant](https://playvalorant.com/) and the [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme).
+
+[these are old screenshots, will be updating soon]
 
 ## Normal
 
