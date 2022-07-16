@@ -17,10 +17,23 @@ module.exports = [
   },
   {
     name: 'punctuation.definition',
-    scope:
-      'punctuation.definition.string.begin,punctuation.definition.string.end',
+    scope: 'punctuation.definition.string.begin,punctuation.definition.string.end',
     settings: {
-      foreground: color.teal,
+      foreground: color.green,
+    },
+  },
+  {
+    name: 'punctuation.definition.keyword',
+    scope: 'punctuation.definition.keyword',
+    settings: {
+      foreground: color.green,
+    },
+  },
+  {
+    name: 'punctuation.definition.entity',
+    scope: 'punctuation.definition.entity',
+    settings: {
+      foreground: color.green,
     },
   },
   {
@@ -65,8 +78,7 @@ module.exports = [
   },
   {
     name: 'diff',
-    scope:
-      'meta.diff.header.from-file,punctuation.definition.from-file.diff',
+    scope: 'meta.diff.header.from-file,punctuation.definition.from-file.diff',
     settings: {
       foreground: color.blue,
     },
@@ -113,14 +125,21 @@ module.exports = [
       'punctuation.section.parameters.end.bracket.round.c',
     ],
     settings: {
-      foreground: color.gray,
+      foreground: color.green,
     },
   },
   {
     name: 'js/ts punctuation separator key-value',
     scope: 'punctuation.separator.key-value',
     settings: {
-      foreground: color.gray,
+      foreground: color.green,
+    },
+  },
+  {
+    name: 'punctuation accessor',
+    scope: 'punctuation.accessor',
+    settings: {
+      foreground: color.green,
     },
   },
   {
@@ -244,8 +263,7 @@ module.exports = [
   },
   {
     name: 'support.constant.property-value.scss',
-    scope:
-      'support.constant.property-value.scss,support.constant.property-value.css',
+    scope: 'support.constant.property-value.scss,support.constant.property-value.css',
     settings: {
       foreground: color.orange,
     },
@@ -288,9 +306,16 @@ module.exports = [
     },
   },
   {
-    name: 'js/ts module',
+    name: 'js/ts template-sting quotes',
     scope:
-      'support.module.node,support.type.object.module,support.module.node',
+      '	punctuation.definition.string.template.begin,	punctuation.definition.string.template.end',
+    settings: {
+      foreground: color.green,
+    },
+  },
+  {
+    name: 'js/ts module',
+    scope: 'support.module.node,support.type.object.module,support.module.node',
     settings: {
       foreground: color.orange,
     },
@@ -300,7 +325,7 @@ module.exports = [
     scope:
       'variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node',
     settings: {
-      foreground: color.red,
+      foreground: color.orange,
     },
   },
   {
@@ -489,7 +514,7 @@ module.exports = [
     name: 'Operators',
     scope: 'keyword.operator',
     settings: {
-      foreground: color.gray,
+      foreground: color.green,
     },
   },
   {
@@ -536,8 +561,7 @@ module.exports = [
   },
   {
     name: 'Functions',
-    scope:
-      'entity.name.function, meta.require, support.function.any-method',
+    scope: 'entity.name.function, meta.require, support.function.any-method',
     settings: {
       foreground: color.blue,
     },
@@ -554,6 +578,13 @@ module.exports = [
     scope: 'support.class, entity.name.type.class',
     settings: {
       foreground: color.orange,
+    },
+  },
+  {
+    name: 'Components',
+    scope: 'support.class.component, entity.name.tag.js',
+    settings: {
+      foreground: color.red,
     },
   },
   {
@@ -603,7 +634,7 @@ module.exports = [
     name: 'Storage',
     scope: 'storage',
     settings: {
-      foreground: color.pink,
+      foreground: color.purple,
       fontStyle: 'italic',
     },
   },
@@ -640,14 +671,14 @@ module.exports = [
     name: 'Support',
     scope: 'support.function',
     settings: {
-      foreground: color.green,
+      foreground: color.blue,
     },
   },
   {
     name: 'Support type',
     scope: 'support.type.property-name',
     settings: {
-      foreground: color.gray,
+      foreground: color.red,
     },
   },
   {
@@ -668,7 +699,7 @@ module.exports = [
     name: 'Meta tag',
     scope: 'meta.tag',
     settings: {
-      foreground: color.gray,
+      foreground: color.green,
     },
   },
   {
@@ -728,6 +759,13 @@ module.exports = [
     },
   },
   {
+    name: 'Tags CSS/SCSS',
+    scope: 'entity.name.tag.css',
+    settings: {
+      foreground: color.cyan,
+    },
+  },
+  {
     name: 'Attributes',
     scope: 'entity.other.attribute-name',
     settings: {
@@ -739,7 +777,7 @@ module.exports = [
     scope: 'entity.other.attribute-name.id',
     settings: {
       fontStyle: 'normal',
-      foreground: color.blue,
+      foreground: color.pink,
     },
   },
   {
@@ -774,8 +812,7 @@ module.exports = [
   },
   {
     name: 'Headings',
-    scope:
-      'markup.heading punctuation.definition.heading, entity.name.section',
+    scope: 'markup.heading punctuation.definition.heading, entity.name.section',
     settings: {
       foreground: color.blue,
     },
@@ -784,7 +821,7 @@ module.exports = [
     name: 'Units',
     scope: 'keyword.other.unit',
     settings: {
-      foreground: color.orange,
+      foreground: color.yellow,
     },
   },
   {
@@ -804,8 +841,7 @@ module.exports = [
   },
   {
     name: 'Italic',
-    scope:
-      'markup.italic, punctuation.definition.italic,todo.emphasis',
+    scope: 'markup.italic, punctuation.definition.italic,todo.emphasis',
     settings: {
       foreground: color.pink,
     },
@@ -891,16 +927,14 @@ module.exports = [
   },
   {
     name: '[VSCODE-CUSTOM] Markdown Underline Link/Image',
-    scope:
-      'markup.underline.link.markdown,markup.underline.link.image.markdown',
+    scope: 'markup.underline.link.markdown,markup.underline.link.image.markdown',
     settings: {
       foreground: color.pink,
     },
   },
   {
     name: '[VSCODE-CUSTOM] Markdown Link Title/Description',
-    scope:
-      'string.other.link.title.markdown,string.other.link.description.markdown',
+    scope: 'string.other.link.title.markdown,string.other.link.description.markdown',
     settings: {
       foreground: color.blue,
     },
@@ -974,8 +1008,7 @@ module.exports = [
   },
   {
     name: 'Source Json Meta Structure Dictionary Json > String Quoted Json',
-    scope:
-      'source.json meta.structure.dictionary.json > string.quoted.json',
+    scope: 'source.json meta.structure.dictionary.json > string.quoted.json',
     settings: {
       foreground: color.red,
     },
@@ -1015,7 +1048,7 @@ module.exports = [
     name: '[VSCODE-CUSTOM] JSON Punctuation for Property Name',
     scope: 'support.type.property-name.json punctuation',
     settings: {
-      foreground: color.red,
+      foreground: color.green,
     },
   },
   {
@@ -1181,8 +1214,7 @@ module.exports = [
   },
   {
     name: 'python function support',
-    scope:
-      'support.token.decorator.python,meta.function.decorator.identifier.python',
+    scope: 'support.token.decorator.python,meta.function.decorator.identifier.python',
     settings: {
       foreground: color.green,
     },

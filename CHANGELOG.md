@@ -12,3 +12,8 @@
 - Oceanic variant colors darkened a bit
 - HTML attribute names are now orrage in oceanic variant
 - Italic font style added
+
+## Valorant Theme v4
+
+- Previous variants are deprecated
+- New remastered variant added

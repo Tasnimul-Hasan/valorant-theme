@@ -1,5 +1,4 @@
 const fs = require('fs');
-const SHELL = require('shelljs');
 const package = require('../package.js');
 
 const themes = package.contributes.themes;
@@ -17,9 +16,3 @@ themes.forEach(config => {
 
   fs.writeFileSync(config.path, JSON.stringify(theme));
 });
-
-// Play with package.json
-fs.renameSync('package.json', 'package-temp.json');
-
-fs.writeFileSync('package.json', JSON.stringify(package));
-SHELL.exec('npx vsce package');

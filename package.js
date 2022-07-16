@@ -1,26 +1,4 @@
 module.exports = {
-  name: 'valorant-theme',
-  version: '4.1.4',
-  displayName: 'Valorant Theme',
-  description: 'This theme is based on the FPS game called valorant',
-  publisher: 'TasnimulHasan',
-  icon: 'icon.jpg',
-  repository: {
-    type: 'git',
-    url: 'https://github.com/Tasnimul-Hasan/valorant-theme',
-  },
-  keywords: [
-    'theme',
-    'dark theme',
-    'valoranttheme',
-    'valorant-theme',
-    'valorant theme',
-    'valorant',
-  ],
-  engines: {
-    vscode: '^1.59.0',
-  },
-  categories: ['Themes'],
   contributes: {
     themes: [
       /* {
@@ -39,14 +17,5 @@ module.exports = {
         path: 'remastered',
       },
     ],
-  },
-  scripts: {
-    build: 'node src',
-  },
-  devDependencies: {
-    vsce: 'latest',
-  },
-  dependencies: {
-    shelljs: 'latest',
   },
 };

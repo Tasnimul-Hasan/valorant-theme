@@ -1,13 +1,11 @@
-# Valorant Theme by Tasnimul Hasan
+# Valorant Theme
 
-I took inspiration from the FPS game [Valorant](https://playvalorant.com/) and the [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme).
+Don't see an install button? Hit `ctrl` + `p` and run the following command:
 
-[these are old screenshots, will be updating soon]
+```
+ext install TasnimulHasan.valorant-theme
+```
 
-## Normal
+## Screenshots
 
-![normal](./screenshots/normal.png)
-
-## Oceanic
-
-![oceanic](./screenshots/oceanic.png)
+![remastered](./screenshots/remastered.png)
