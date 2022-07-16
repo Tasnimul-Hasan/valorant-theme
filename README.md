@@ -44,7 +44,7 @@ ext install TasnimulHasan.valorant-theme
 
 Here, watch this or [click here](https://youtu.be/pGzssFNtWXw?t=597):
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pGzssFNtWXw?start=597" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![You have shitty internet](https://img.youtube.com/vi/pGzssFNtWXw/0.jpg)](https://youtu.be/pGzssFNtWXw?t=597)
 
 ### Still have issues?
 
