@@ -1,4 +1,4 @@
-const color = require('../color.js');
+const color = require('../color.js')
 
 module.exports = [
   {
@@ -17,7 +17,8 @@ module.exports = [
   },
   {
     name: 'punctuation.definition',
-    scope: 'punctuation.definition.string.begin,punctuation.definition.string.end',
+    scope:
+      'punctuation.definition.string.begin,punctuation.definition.string.end',
     settings: {
       foreground: color.green,
     },
@@ -32,6 +33,13 @@ module.exports = [
   {
     name: 'punctuation.definition.entity',
     scope: 'punctuation.definition.entity',
+    settings: {
+      foreground: color.green,
+    },
+  },
+  {
+    name: 'punctuation.destructuring',
+    scope: 'punctuation.destructuring',
     settings: {
       foreground: color.green,
     },
@@ -78,7 +86,8 @@ module.exports = [
   },
   {
     name: 'diff',
-    scope: 'meta.diff.header.from-file,punctuation.definition.from-file.diff',
+    scope:
+      'meta.diff.header.from-file,punctuation.definition.from-file.diff',
     settings: {
       foreground: color.blue,
     },
@@ -185,6 +194,20 @@ module.exports = [
     },
   },
   {
+    name: 'js/ts variable.other.property',
+    scope: 'variable.other.property',
+    settings: {
+      foreground: color.red,
+    },
+  },
+  {
+    name: 'js/ts variable.other.object.property',
+    scope: 'variable.other.object.property',
+    settings: {
+      foreground: color.red,
+    },
+  },
+  {
     name: 'java type',
     scope: 'storage.type.annotation.java',
     settings: {
@@ -235,7 +258,10 @@ module.exports = [
   },
   {
     name: 'java modifier.import',
-    scope: ['storage.modifier.import.java', 'storage.type.java'],
+    scope: [
+      'storage.modifier.import.java',
+      'storage.type.java',
+    ],
     settings: {
       foreground: color.orange,
     },
@@ -263,7 +289,8 @@ module.exports = [
   },
   {
     name: 'support.constant.property-value.scss',
-    scope: 'support.constant.property-value.scss,support.constant.property-value.css',
+    scope:
+      'support.constant.property-value.scss,support.constant.property-value.css',
     settings: {
       foreground: color.orange,
     },
@@ -285,7 +312,8 @@ module.exports = [
   },
   {
     name: 'css attribute-name.id',
-    scope: 'support.constant.color.w3c-standard-color-name.css',
+    scope:
+      'support.constant.color.w3c-standard-color-name.css',
     settings: {
       foreground: color.orange,
     },
@@ -315,7 +343,8 @@ module.exports = [
   },
   {
     name: 'js/ts module',
-    scope: 'support.module.node,support.type.object.module,support.module.node',
+    scope:
+      'support.module.node,support.type.object.module,support.module.node',
     settings: {
       foreground: color.orange,
     },
@@ -323,14 +352,36 @@ module.exports = [
   {
     name: 'js variable readwrite',
     scope:
-      'variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node',
+      'variable.other.readwrite,support.variable.object.process,support.variable.object.node',
     settings: {
       foreground: color.orange,
     },
   },
   {
+    name: 'meta.object-literal.key',
+    scope: 'meta.object-literal.key',
+    settings: {
+      foreground: color.red,
+    },
+  },
+  {
+    name: 'support.variable.property',
+    scope: 'support.variable.property',
+    settings: {
+      foreground: color.red,
+    },
+  },
+  {
+    name: 'variable.object.property',
+    scope: 'variable.object.property',
+    settings: {
+      foreground: color.red,
+    },
+  },
+  {
     name: 'comment',
-    scope: 'comment.line.double-slash,comment.block.documentation',
+    scope:
+      'comment.line.double-slash,comment.block.documentation',
     settings: {
       fontStyle: 'italic',
     },
@@ -340,6 +391,13 @@ module.exports = [
     scope: 'support.constant.json',
     settings: {
       foreground: color.orange,
+    },
+  },
+  {
+    name: 'support.constant.media',
+    scope: 'support.constant.media',
+    settings: {
+      foreground: color.red,
     },
   },
   {
@@ -387,7 +445,8 @@ module.exports = [
   },
   {
     name: 'js dom variable',
-    scope: 'support.variable.dom,support.variable.property.dom',
+    scope:
+      'support.variable.dom,support.variable.property.dom',
     settings: {
       foreground: color.red,
     },
@@ -396,13 +455,32 @@ module.exports = [
     name: 'keyword.operator',
     scope: [
       'keyword.operator.arithmetic',
-      'keyword.operator.comparison',
       'keyword.operator',
       'punctuation.separator',
       'punctuation.terminator',
     ],
     settings: {
       foreground: color.green,
+    },
+  },
+  {
+    name: 'keyword.operator yellow',
+    scope: [
+      'keyword.operator.increment',
+      'keyword.operator.decrement',
+    ],
+    settings: {
+      foreground: color.yellow,
+    },
+  },
+  {
+    name: 'keyword.operator red',
+    scope: [
+      'keyword.operator.comparison',
+      'keyword.operator.relational',
+    ],
+    settings: {
+      foreground: color.red,
     },
   },
   {
@@ -498,7 +576,8 @@ module.exports = [
   },
   {
     name: 'python placeholder reset to normal string',
-    scope: 'constant.character.format.placeholder.other.python',
+    scope:
+      'constant.character.format.placeholder.other.python',
     settings: {
       foreground: color.teal,
     },
@@ -528,7 +607,7 @@ module.exports = [
     name: 'Variables',
     scope: 'variable',
     settings: {
-      foreground: color.red,
+      foreground: color.orange,
     },
   },
   {
@@ -561,7 +640,8 @@ module.exports = [
   },
   {
     name: 'Functions',
-    scope: 'entity.name.function, meta.require, support.function.any-method',
+    scope:
+      'entity.name.function, meta.require, support.function.any-method',
     settings: {
       foreground: color.blue,
     },
@@ -646,6 +726,13 @@ module.exports = [
     },
   },
   {
+    name: 'Storage Modifier',
+    scope: 'storage.modifier',
+    settings: {
+      foreground: color.pink,
+    },
+  },
+  {
     name: 'Arrow function',
     scope: 'storage.type.function.arrow',
     settings: {
@@ -703,10 +790,17 @@ module.exports = [
     },
   },
   {
-    name: 'Strings, Inherited Class',
-    scope: 'string, entity.other.inherited-class',
+    name: 'Strings',
+    scope: 'string',
     settings: {
       foreground: color.teal,
+    },
+  },
+  {
+    name: 'Inherited Class',
+    scope: 'entity.other.inherited-class',
+    settings: {
+      foreground: color.red,
     },
   },
   {
@@ -720,7 +814,7 @@ module.exports = [
     name: 'Integers',
     scope: 'constant.numeric',
     settings: {
-      foreground: color.orange,
+      foreground: color.yellow,
     },
   },
   {
@@ -741,7 +835,7 @@ module.exports = [
     name: 'Constants',
     scope: 'constant',
     settings: {
-      foreground: color.orange,
+      foreground: color.yellow,
     },
   },
   {
@@ -762,7 +856,7 @@ module.exports = [
     name: 'Tags CSS/SCSS',
     scope: 'entity.name.tag.css',
     settings: {
-      foreground: color.cyan,
+      foreground: color.red,
     },
   },
   {
@@ -812,7 +906,8 @@ module.exports = [
   },
   {
     name: 'Headings',
-    scope: 'markup.heading punctuation.definition.heading, entity.name.section',
+    scope:
+      'markup.heading punctuation.definition.heading, entity.name.section',
     settings: {
       foreground: color.blue,
     },
@@ -821,7 +916,7 @@ module.exports = [
     name: 'Units',
     scope: 'keyword.other.unit',
     settings: {
-      foreground: color.yellow,
+      foreground: color.orange,
     },
   },
   {
@@ -841,7 +936,8 @@ module.exports = [
   },
   {
     name: 'Italic',
-    scope: 'markup.italic, punctuation.definition.italic,todo.emphasis',
+    scope:
+      'markup.italic, punctuation.definition.italic,todo.emphasis',
     settings: {
       foreground: color.pink,
     },
@@ -927,14 +1023,16 @@ module.exports = [
   },
   {
     name: '[VSCODE-CUSTOM] Markdown Underline Link/Image',
-    scope: 'markup.underline.link.markdown,markup.underline.link.image.markdown',
+    scope:
+      'markup.underline.link.markdown,markup.underline.link.image.markdown',
     settings: {
       foreground: color.pink,
     },
   },
   {
     name: '[VSCODE-CUSTOM] Markdown Link Title/Description',
-    scope: 'string.other.link.title.markdown,string.other.link.description.markdown',
+    scope:
+      'string.other.link.title.markdown,string.other.link.description.markdown',
     settings: {
       foreground: color.blue,
     },
@@ -964,12 +1062,13 @@ module.exports = [
     name: 'Escape Characters',
     scope: 'constant.character.escape',
     settings: {
-      foreground: color.green,
+      foreground: color.yellow,
     },
   },
   {
     name: 'Embedded',
-    scope: 'punctuation.section.embedded, variable.interpolation',
+    scope:
+      'punctuation.section.embedded, variable.interpolation',
     settings: {
       foreground: color.red,
     },
@@ -1008,7 +1107,8 @@ module.exports = [
   },
   {
     name: 'Source Json Meta Structure Dictionary Json > String Quoted Json',
-    scope: 'source.json meta.structure.dictionary.json > string.quoted.json',
+    scope:
+      'source.json meta.structure.dictionary.json > string.quoted.json',
     settings: {
       foreground: color.red,
     },
@@ -1200,7 +1300,8 @@ module.exports = [
   },
   {
     name: 'php heredoc/nowdoc',
-    scope: 'keyword.operator.heredoc.php,keyword.operator.nowdoc.php',
+    scope:
+      'keyword.operator.heredoc.php,keyword.operator.nowdoc.php',
     settings: {
       foreground: color.pink,
     },
@@ -1214,7 +1315,8 @@ module.exports = [
   },
   {
     name: 'python function support',
-    scope: 'support.token.decorator.python,meta.function.decorator.identifier.python',
+    scope:
+      'support.token.decorator.python,meta.function.decorator.identifier.python',
     settings: {
       foreground: color.green,
     },
@@ -1368,10 +1470,11 @@ module.exports = [
   },
   {
     name: 'Parameters',
-    scope: 'variable.parameter,entity.other.function-parameter.cfml',
+    scope:
+      'variable.parameter,entity.other.function-parameter.cfml',
     settings: {
-      foreground: color.orange,
+      foreground: color.red,
       fontStyle: 'italic',
     },
   },
-];
+]
