@@ -29,6 +29,11 @@
         "label": "Valorant Theme - Remastered",
         "uiTheme": "vs-dark",
         "path": "themes/remastered.json"
+      },
+      {
+        "label": "Valorant Theme - Darker",
+        "uiTheme": "vs-dark",
+        "path": "themes/darker.json"
       }
     ]
   },
