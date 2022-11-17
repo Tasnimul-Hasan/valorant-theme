@@ -1,8 +1,8 @@
 module.exports = {
   white: '#f2f2f2',
   lightGray: '#c9d6da',
-  darkGray: '#617d8a',
   gray: '#95aab4',
+  darkGray: '#617d8a',
   purple: '#b39afd',
   blue: '#64B5F6',
   sky: '#87cbff',
@@ -14,4 +14,4 @@ module.exports = {
   red: '#e57373',
   brightRed: '#ef5350',
   pink: '#d792cd',
-}
+};

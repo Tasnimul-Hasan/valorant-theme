@@ -1,55 +1,61 @@
 const color = require('./primaryColors');
 
 exports.shades = {
-  primary: color.red,
+  primary: '#9142F5',
   foreground: color.lightGray,
   transparent: '#00000000',
 
-  shade50: '#727272',
-  shade100: '#474747',
-  shade200: '#404040',
-  shade250: '#3f3f3f',
-  shade300: '#323232',
-  shade400: '#2a2a2a',
-  shade500: '#292929',
-  shade600: '#212121',
-  shade700: '#1a1a1a',
-  shade800: '#151515',
-  shade900: '#111111',
-  shade000: '#010101',
+  shade50: '#5e6e8d',
+  shade100: '#566581',
+  shade200: '#4e5b74',
+  shade250: '#455168',
+  shade300: '#3d485c',
+  shade400: '#353e50',
+  shade450: '#313a46',
+  shade500: '#2d3543',
+  shade600: '#252b37',
+  shade700: '#1d222b',
+  shade800: '#14181f',
+  shade900: '#0c0e12',
+  shade000: '#040506',
 };
 
 exports.editorColors = {
+  editorBG: exports.shades.shade700,
+  border: color.darkGray + '70',
+  shadow: exports.shades.shade500 + 'dd',
+  drop: color.darkGray + '25',
+
+  /* link */
+  link: '#B37DFC',
+  linkAct: '#C08FFB',
+
   /* activity bar */
-  activityBarBG: exports.shades.shade600,
-  activityBarFG: exports.shades.primary,
+  activityBarBG: exports.shades.shade500,
+  activityBarFG: exports.shades.lightGray,
   activityBarInactFG: color.darkGray,
   activityBarBorder: exports.shades.transparent,
 
   /* side bar */
-  sidebarBG: exports.shades.shade800,
-  sidebarFG: color.darkGray,
+  sidebarBG: exports.shades.shade600,
+  sidebarFG: color.lightGray,
   sidebarBorder: exports.shades.transparent,
 
   /* minimap */
   minimapBG: exports.shades.shade700,
 
   /* scrollbar */
-  scroll: exports.shades.primary + '25',
-  scrollHover: exports.shades.primary + '35',
-  scrollActive: exports.shades.primary + '45',
+  scroll: color.darkGray + '25',
+  scrollHover: color.darkGray + '35',
+  scrollActive: color.darkGray + '45',
 
   /* selection and highlight */
-  selection: exports.shades.primary + '25',
-  inactSelection: exports.shades.shade50 + '25',
-  highlight: exports.shades.primary + '35',
-  fmHighlight: exports.shades.primary + '40', // findmatch
-  frHighlight: exports.shades.primary + '40', // findrange
-  hvHighlight: exports.shades.primary + '48', // hover
-
-  editorBG: exports.shades.shade700,
-
-  border: color.darkGray + '70',
+  selection: color.darkGray + '35',
+  inactSelection: color.darkGray + '45',
+  highlight: color.darkGray + '25',
+  fmHighlight: color.darkGray + '40', // findmatch
+  frHighlight: color.darkGray + '40', // findrange
+  hvHighlight: color.darkGray + '48', // hover
 
   /* general */
   error: color.red,
@@ -61,14 +67,11 @@ exports.editorColors = {
   modified: color.blue,
   deleted: color.red,
 
-  /* link */
-  linkAct: color.cyan,
-
-  itemActBG: exports.shades.primary + '66',
-  itemActFG: exports.shades.foreground,
-  itemInactBG: exports.shades.shade500,
+  itemActBG: exports.shades.primary + 'dd',
+  itemActFG: color.white,
+  itemInactBG: exports.shades.shade450,
   itemInactFG: exports.shades.foreground,
-  itemHoverBG: exports.shades.transparent,
+  itemHoverBG: exports.shades.shade500,
   itemHoverFG: exports.shades.foreground,
 
   modal: exports.shades.shade500,
