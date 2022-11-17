@@ -1,4 +1,4 @@
-const color = require('../color.js')
+const color = require('../colors/primaryColors.js');
 
 module.exports = [
   {
@@ -86,8 +86,7 @@ module.exports = [
   },
   {
     name: 'diff',
-    scope:
-      'meta.diff.header.from-file,punctuation.definition.from-file.diff',
+    scope: 'meta.diff.header.from-file,punctuation.definition.from-file.diff',
     settings: {
       foreground: color.blue,
     },
@@ -258,10 +257,7 @@ module.exports = [
   },
   {
     name: 'java modifier.import',
-    scope: [
-      'storage.modifier.import.java',
-      'storage.type.java',
-    ],
+    scope: ['storage.modifier.import.java', 'storage.type.java'],
     settings: {
       foreground: color.orange,
     },
@@ -312,8 +308,7 @@ module.exports = [
   },
   {
     name: 'css attribute-name.id',
-    scope:
-      'support.constant.color.w3c-standard-color-name.css',
+    scope: 'support.constant.color.w3c-standard-color-name.css',
     settings: {
       foreground: color.orange,
     },
@@ -343,8 +338,7 @@ module.exports = [
   },
   {
     name: 'js/ts module',
-    scope:
-      'support.module.node,support.type.object.module,support.module.node',
+    scope: 'support.module.node,support.type.object.module,support.module.node',
     settings: {
       foreground: color.orange,
     },
@@ -380,8 +374,7 @@ module.exports = [
   },
   {
     name: 'comment',
-    scope:
-      'comment.line.double-slash,comment.block.documentation',
+    scope: 'comment.line.double-slash,comment.block.documentation',
     settings: {
       fontStyle: 'italic',
     },
@@ -445,8 +438,7 @@ module.exports = [
   },
   {
     name: 'js dom variable',
-    scope:
-      'support.variable.dom,support.variable.property.dom',
+    scope: 'support.variable.dom,support.variable.property.dom',
     settings: {
       foreground: color.red,
     },
@@ -465,20 +457,14 @@ module.exports = [
   },
   {
     name: 'keyword.operator yellow',
-    scope: [
-      'keyword.operator.increment',
-      'keyword.operator.decrement',
-    ],
+    scope: ['keyword.operator.increment', 'keyword.operator.decrement'],
     settings: {
       foreground: color.yellow,
     },
   },
   {
     name: 'keyword.operator red',
-    scope: [
-      'keyword.operator.comparison',
-      'keyword.operator.relational',
-    ],
+    scope: ['keyword.operator.comparison', 'keyword.operator.relational'],
     settings: {
       foreground: color.red,
     },
@@ -576,8 +562,7 @@ module.exports = [
   },
   {
     name: 'python placeholder reset to normal string',
-    scope:
-      'constant.character.format.placeholder.other.python',
+    scope: 'constant.character.format.placeholder.other.python',
     settings: {
       foreground: color.teal,
     },
@@ -640,8 +625,7 @@ module.exports = [
   },
   {
     name: 'Functions',
-    scope:
-      'entity.name.function, meta.require, support.function.any-method',
+    scope: 'entity.name.function, meta.require, support.function.any-method',
     settings: {
       foreground: color.blue,
     },
@@ -906,8 +890,7 @@ module.exports = [
   },
   {
     name: 'Headings',
-    scope:
-      'markup.heading punctuation.definition.heading, entity.name.section',
+    scope: 'markup.heading punctuation.definition.heading, entity.name.section',
     settings: {
       foreground: color.blue,
     },
@@ -936,8 +919,7 @@ module.exports = [
   },
   {
     name: 'Italic',
-    scope:
-      'markup.italic, punctuation.definition.italic,todo.emphasis',
+    scope: 'markup.italic, punctuation.definition.italic,todo.emphasis',
     settings: {
       foreground: color.pink,
     },
@@ -1067,8 +1049,7 @@ module.exports = [
   },
   {
     name: 'Embedded',
-    scope:
-      'punctuation.section.embedded, variable.interpolation',
+    scope: 'punctuation.section.embedded, variable.interpolation',
     settings: {
       foreground: color.red,
     },
@@ -1107,8 +1088,7 @@ module.exports = [
   },
   {
     name: 'Source Json Meta Structure Dictionary Json > String Quoted Json',
-    scope:
-      'source.json meta.structure.dictionary.json > string.quoted.json',
+    scope: 'source.json meta.structure.dictionary.json > string.quoted.json',
     settings: {
       foreground: color.red,
     },
@@ -1300,8 +1280,7 @@ module.exports = [
   },
   {
     name: 'php heredoc/nowdoc',
-    scope:
-      'keyword.operator.heredoc.php,keyword.operator.nowdoc.php',
+    scope: 'keyword.operator.heredoc.php,keyword.operator.nowdoc.php',
     settings: {
       foreground: color.pink,
     },
@@ -1470,11 +1449,10 @@ module.exports = [
   },
   {
     name: 'Parameters',
-    scope:
-      'variable.parameter,entity.other.function-parameter.cfml',
+    scope: 'variable.parameter,entity.other.function-parameter.cfml',
     settings: {
       foreground: color.red,
       fontStyle: 'italic',
     },
   },
-]
+];
