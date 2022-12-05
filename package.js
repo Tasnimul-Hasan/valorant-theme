@@ -13,7 +13,7 @@ module.exports = {
       }, */
 
       {
-        label: 'Valorant Theme - Darker',
+        label: 'Valorant Theme - Darker [alpha]',
         uiTheme: 'vs-dark',
         path: 'darker',
       },
